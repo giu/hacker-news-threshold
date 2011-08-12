@@ -1,9 +1,11 @@
 // ==UserScript==
-// @name            Hacker News Frontpage
+// @name            Hacker News Threshold
 // @namespace       http://giu.me
-// @description     Makes some slight changes to the Hacker News frontpage
+// @description     Gives the ability to highlight threads with a number of votes higher than a user-defined threshold
 // @include			http://news.ycombinator.com/
 // @include			http://news.ycombinator.com/news
+// @include			http://news.ycombinator.com/ask
+// @include			http://news.ycombinator.com/newest
 // @require			http://code.jquery.com/jquery.min.js
 // ==/UserScript==
 $(function(){
@@ -26,12 +28,13 @@ $(function(){
 		}
 	}
 
-	$("#hnf-point-threshold").live("blur", function(){
+	$("#hnf-point-threshold").live("keyup", function(){
 		highlightThreads($(this).val());
 	});
 
 	var startthreshold = 100;
-	$($(".pagetop")[0]).append(" | Point threshold: <input type='text' id='hnf-point-threshold' value='"+startthreshold+"'  />");
+
+	$($(".pagetop")[0]).append(" | Set threshold: <input type='text' id='hnf-point-threshold' value='"+startthreshold+"'  />");
 
 	highlightThreads(startthreshold);
 });
