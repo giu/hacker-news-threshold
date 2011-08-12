@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name            Hacker News Threshold
 // @namespace       http://giu.me
-// @description     Gives the ability to highlight threads with a number of votes higher than a user-defined threshold
+// @description     Allows you to highlight threads which have a number of points greather than a specified threshold
 // @include			http://news.ycombinator.com/
 // @include			http://news.ycombinator.com/news
 // @include			http://news.ycombinator.com/ask
