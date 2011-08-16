@@ -13,7 +13,11 @@ $(function(){
 
 	function highlightThreads(threshold){
 		var $hnfti = $("#hnfti");
-		if(!isNaN(threshold)){
+		if(isNaN(threshold)){
+			$(".hnth").removeClass("hnth");
+			$hnfti.addClass("hnterr");
+		}
+		else{
 			$hnfti.removeClass("hnterr");
 			$(".hnth").removeClass("hnth");
 			$("span[id^='score_']").filter(function(){
@@ -27,10 +31,6 @@ $(function(){
 				}
 			})
 			.closest("tr").prev().addClass("hnth");
-		}
-		else{
-			$(".hnth").removeClass("hnth");
-			$hnfti.addClass("hnterr");
 		}
 	}
 
