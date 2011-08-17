@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name            Hacker News Threshold
 // @namespace       http://giu.me
-// @description     Allows you to highlight threads which have a number of points greather than a specified threshold
+// @description     Allows you to highlight threads on Hacker News which have a number of points greater than a specified threshold
 // @include			http://news.ycombinator.com/
 // @include			http://news.ycombinator.com/news
 // @include			http://news.ycombinator.com/ask
