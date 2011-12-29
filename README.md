@@ -2,7 +2,7 @@
 
 Hacker News Threshold (HNT) is a Greasemonkey user script that allows you to highlight threads on [Hacker News](http://news.ycombinator.com) which have a number of points greater than a specified threshold. 
 
-You can find the [HNT Greasemonkey script on userscripts.org](https://www.userscripts.org/scripts/show/110318), too.
+You can find the [HNT Greasemonkey script on userscripts.org](http://www.userscripts.org/scripts/show/110318), too.
 
 ## Screenshot
 
