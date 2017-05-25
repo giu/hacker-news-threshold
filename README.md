@@ -6,4 +6,4 @@ You can find the [HNT Greasemonkey script on userscripts.org](http://www.userscr
 
 ## Screenshot
 
-<img src="hacker-news-threshold/raw/master/hacker-news-threshold.png" alt="Hacker News Threshold - Allows you to highlight threads which have a number of points greather than a specified threshold" title="Allows you to highlight threads which have a number of points greather than a specified threshold" />
+<img src="https://raw.githubusercontent.com/giu/hacker-news-threshold/master/hacker-news-threshold.png" alt="Hacker News Threshold - Allows you to highlight threads which have a number of points greather than a specified threshold" title="Allows you to highlight threads which have a number of points greather than a specified threshold" />
